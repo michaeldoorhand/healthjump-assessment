@@ -5,7 +5,7 @@ Hello, for my solution I've created a wrapper for the Healthjump api called Heal
 Firstly, ensure you have the requests, requests_cache, and urllib modules installed.
 Next to create an instance of the healthjump api by calling the HealthjumpAPI() class.
 
-  api = HealthjumpAPI()
+  ```api = HealthjumpAPI()```
 
 You can now use this instance to perform api calls. This method call will return the data portion of the demographics endpoint.
 

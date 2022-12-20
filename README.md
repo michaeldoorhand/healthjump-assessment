@@ -16,9 +16,9 @@ You can also pass optional keyword parameters to the get_demographics() method f
   ```demographics = api.get_demographics(params={"first_name": "btwn\~Patient_A~Patient_C"})```
 
 You can now iterate through demographics and access certain fields.
-
-  ```for patient in demographics:
-    print(patient["first_name"])```
-    
+  ~~~
+  for patient in demographics:
+    print(patient["first_name"])
+  ~~~
 I went with this route for this assignment so that it can be easily extended to account the rest of the endpoints in the Healthjump api.
 I've also included global constants for the email, password, url, client_id, and secret_key so it can be modified for different users and/or clients.

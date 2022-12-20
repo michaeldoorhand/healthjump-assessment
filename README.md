@@ -13,7 +13,7 @@ You can now use this instance to perform api calls. This method call will return
 
 You can also pass optional keyword parameters to the get_demographics() method for more refined requests
 
-  demographics = api.get_demographics(params={"first_name": "btwn~Patient_A~Patient_C"})
+  demographics = api.get_demographics(params={"first_name": "btwn\~Patient_A~\Patient_C"})
 
 You can now iterate through demographics and access certain fields
 
